@@ -18,3 +18,18 @@ Curated list of items each architect should be aware of along with it's short de
 6. Pub/Sub
 7. Shrading
 8. Strangler Fake Pattern
+
+## Architecture Patterns
+1. Layered Architecture / Pattern
+2. Event Driven Architecture
+3. Micro Kernal Architecture
+4. Microservices Architecture
+5. Monolith Architecture (Modular Architecture)
+
+## Deployment Strategies
+1. Big Bang Deployment
+2. Rolling Deployment
+3. Blue-green Deployment
+4. Canary Deployment
+5. Feature Toggle Deployment
+
