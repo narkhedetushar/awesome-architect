@@ -33,3 +33,71 @@ Curated list of items each architect should be aware of along with it's short de
 4. Canary Deployment
 5. Feature Toggle Deployment
 
+
+
+📌 𝐊𝐞𝐲 𝐂𝐨𝐧𝐜𝐞𝐩𝐭𝐬:
+- Scalability
+- Availability
+- CAP Theorem
+- ACID Transactions
+- Consistent Hashing
+- Rate Limiting
+- API Design
+- Fault Tolerance
+- Consensus Algorithms
+- Gossip Protocol
+- Service Discovery
+- Disaster Recovery
+- Distributed Tracing
+
+⚖️ 𝐓𝐫𝐚𝐝𝐞𝐨𝐟𝐟𝐬:
+- REST vs RPC
+- Vertical vs Horizontal Scaling
+- Stateful vs Stateless Design
+- Strong vs Eventual Consistency
+- Push vs Pull Architecture
+- Latency vs Throughput
+- Long-polling vs WebSockets
+- Batch vs Stream Processing
+- Read-Through vs Write-Through Cache
+- Synchronous vs. asynchronous communications
+
+🛠️ 𝐁𝐮𝐢𝐥𝐝𝐢𝐧𝐠 𝐁𝐥𝐨𝐜𝐤𝐬:
+- Caching
+- Distributed Caching
+- Databases Types
+- Load Balancing
+- SQL vs NoSQL
+- Database Indexes
+- Content Delivery Network (CDN)
+- Domain Name System (DNS)
+- Consistency Patterns
+- HeartBeats
+- Circuit Breaker
+- Idempotency
+- Database Scaling
+- Data Replication
+- Data Redundancy
+- Database Sharding
+- Database Architectures
+- Failover
+- Proxy Server
+- Message Queues
+- Checksums
+- WebSockets
+- Bloom Filters
+- API Gateway
+- Microservices Guidelines
+- Distributed Locking
+
+🖇️ 𝐀𝐫𝐜𝐡𝐢𝐭𝐞𝐜𝐭𝐮𝐫𝐚𝐥 𝐏𝐚𝐭𝐭𝐞𝐫𝐧𝐬:
+- Client-Server Architecture
+- Microservices Architecture
+- Serverless Architecture
+- Event-Driven Architecture
+- Peer-to-Peer (P2P) Architecture
+
+
+
+
+
