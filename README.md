@@ -94,8 +94,7 @@ Curated list of items each architect should be aware of along with a short descr
 - Microservices Architecture — See above (small services, independent deploys).
 - Serverless Architecture — Run code in ephemeral functions managed by cloud provider; good for event-driven workloads.
 - Event-Driven Architecture — See above (events drive interactions).
-- Peer-to-Peer (P2P) Architecture �� Nodes communicate directly without central coordination; useful for decentralized systems.
-
+- Peer-to-Peer (P2P) Architecture — Nodes communicate directly without central coordination; useful for decentralized systems.
 
 ## References and further reading
 
@@ -149,3 +148,16 @@ Curated list of items each architect should be aware of along with a short descr
 - Message Queues (RabbitMQ) — https://www.rabbitmq.com/what-is-rabbitmq.html
 - WebSockets (MDN) — https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API
 - API Gateway (AWS) — https://aws.amazon.com/api-gateway/
+
+### Academic / Papers
+- CAP theorem — Gilbert, S., & Lynch, N. (2002). Brewer’s conjecture and the feasibility of consistent, available, partition‑tolerant web services. ACM SIGACT News. https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/gilbert-lynch.pdf
+- Paxos / Consensus — Lamport, L. (2001). Paxos Made Simple. https://lamport.azurewebsites.net/pubs/paxos-simple.pdf
+- Raft — Ongaro, D., & Ousterhout, J. (2014). In Search of an Understandable Consensus Algorithm (Raft). https://raft.github.io/raft.pdf
+- Dapper / Tracing — Google. (2010). Dapper, a Large-Scale Distributed Systems Tracing Infrastructure. https://research.google/pubs/pub38167/
+- Consistent Hashing — Karger, D., et al. (1997). Consistent hashing and random trees. https://www.cs.princeton.edu/courses/archive/spr04/cos418/papers/karger97.pdf
+- Bloom Filter — Bloom, B. H. (1970). Space/time trade-offs in hash coding with allowable errors. https://www.cs.cmu.edu/~christos/courses/711-f11/reading/bloom.pdf
+- Spanner — Corbett, J. C., et al. (2012). Spanner: Google’s Globally-Distributed Database. OSDI. https://research.google/pubs/pub39966/
+- Failure Detectors — Chandra, T. D., & Toueg, S. (1996). Unreliable failure detectors for reliable distributed systems. JACM. https://www.cs.cornell.edu/home/achal/papers/ft/failure-detection-jacm.pdf
+- SWIM / Gossip — Das, S., et al. (2001). Scalable weakly-consistent infection-style process group membership protocol (SWIM). https://pdos.csail.mit.edu/papers/sosp2001.pdf
+- Microservices survey — Dragoni, N., et al. (2017). Microservices: Yesterday, Today, and Tomorrow. https://arxiv.org/abs/1606.04036
+- Kleppmann (Book) — Kleppmann, M. (2017). Designing Data-Intensive Applications. https://dataintensive.net/
