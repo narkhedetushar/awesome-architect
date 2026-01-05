@@ -94,7 +94,58 @@ Curated list of items each architect should be aware of along with a short descr
 - Microservices Architecture — See above (small services, independent deploys).
 - Serverless Architecture — Run code in ephemeral functions managed by cloud provider; good for event-driven workloads.
 - Event-Driven Architecture — See above (events drive interactions).
-- Peer-to-Peer (P2P) Architecture — Nodes communicate directly without central coordination; useful for decentralized systems.
+- Peer-to-Peer (P2P) Architecture �� Nodes communicate directly without central coordination; useful for decentralized systems.
 
 
-This update adds short descriptions for the listed topics in README.md to make the resource more beginner-friendly.
+## References and further reading
+
+### General
+- Martin Fowler — https://martinfowler.com/
+- Microservices Patterns (Chris Richardson) — https://microservices.io/
+- Designing Data-Intensive Applications (Martin Kleppmann) — https://dataintensive.net/
+- AWS Architecture Center — https://aws.amazon.com/architecture/
+
+### Client Architecture Patterns
+- MVC — https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller
+- MVP — https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter
+- MVVM — https://learn.microsoft.com/en-us/azure/architecture/patterns/mvvm
+- Coordinator / MVVMC — https://developer.apple.com/videos/play/wwdc2017/237/ (example of coordination) and https://medium.com/flawless-app-stories/the-coordinator-pattern-4866f4b6a1a0
+- VIPER — https://en.wikipedia.org/wiki/VIPER_(software_architecture)
+
+### Distributed Design Patterns
+- Circuit Breaker — https://martinfowler.com/bliki/CircuitBreaker.html
+- CQRS — https://martinfowler.com/bliki/CQRS.html
+- Event Sourcing — https://martinfowler.com/eaaDev/EventSourcing.html
+- Leader Election (ZooKeeper) — https://zookeeper.apache.org/doc/current/recipes.html#sc_recipes_Election
+- Ambassador Pattern — https://microservices.io/patterns/edge-application-router.html
+- Pub/Sub — https://cloud.google.com/pubsub/docs/overview
+- Sharding — https://en.wikipedia.org/wiki/Database_sharding
+- Strangler Fig Pattern — https://martinfowler.com/bliki/StranglerFigApplication.html
+
+### Architecture Patterns
+- Layered Architecture — https://martinfowler.com/eaaCatalog/layers.html
+- Event-Driven Architecture — https://aws.amazon.com/event-driven-architecture/
+- Microkernel Architecture — https://en.wikipedia.org/wiki/Microkernel_architecture
+- Microservices — https://martinfowler.com/articles/microservices.html
+- Monolith / Modular Monolith — https://martinfowler.com/bliki/MonolithFirst.html
+
+### Deployment Strategies
+- Deployment strategies overview (Atlassian) — https://www.atlassian.com/continuous-delivery/deployment-strategies
+- Blue-Green — https://martinfowler.com/bliki/BlueGreenDeployment.html
+- Canary — https://martinfowler.com/bliki/CanaryRelease.html
+- Rolling (Kubernetes) — https://kubernetes.io/docs/tutorials/kubernetes-basics/update/update-intro/
+- Feature Toggles — https://martinfowler.com/articles/feature-toggles.html
+
+### Key concepts & Building blocks
+- CAP theorem — https://en.wikipedia.org/wiki/CAP_theorem
+- ACID — https://en.wikipedia.org/wiki/ACID
+- Consistent Hashing — https://en.wikipedia.org/wiki/Consistent_hashing
+- Distributed Tracing (OpenTelemetry) — https://opentelemetry.io/
+- Consensus (Raft) — https://raft.github.io/
+- Service Discovery (Consul) — https://www.consul.io/
+- Gossip Protocol (HashiCorp) — https://www.hashicorp.com/resources/gossip-protocol
+- CDN (Cloudflare) — https://www.cloudflare.com/learning/cdn/what-is-a-cdn/
+- Bloom Filter — https://en.wikipedia.org/wiki/Bloom_filter
+- Message Queues (RabbitMQ) — https://www.rabbitmq.com/what-is-rabbitmq.html
+- WebSockets (MDN) — https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API
+- API Gateway (AWS) — https://aws.amazon.com/api-gateway/
